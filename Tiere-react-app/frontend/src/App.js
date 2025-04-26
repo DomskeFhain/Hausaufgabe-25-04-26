@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function App() {
   return (
-    <div >
+    <div className='Start' >
 <Link to="/tiere">Tiere</Link>
     </div>
   );
