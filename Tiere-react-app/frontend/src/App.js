@@ -1,9 +1,10 @@
 import './App.css';
+import { Link } from 'react-router-dom'
 
 function App() {
   return (
     <div >
-Hallo
+<Link to="/tiere">Tiere</Link>
     </div>
   );
 }

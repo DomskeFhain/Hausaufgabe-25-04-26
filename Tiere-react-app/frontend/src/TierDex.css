@@ -1,2 +1,35 @@
-
+.detail-container {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .detail-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .detail-container h2 {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+  .back-button:hover {
+    background-color: #005fa3;
+  }
   
